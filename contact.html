@@ -54,6 +54,12 @@
             <textarea  placeholder="Your message..." rows="4" ></textarea>
    
             <input type="submit" id="sub2" value="Send">
+              <script>
+                const sendButton = document.getElementById('sub2');
+                sendButton.addEventListener('click', function() {
+                  alert('Thank you for your feedback ! ');
+                });
+              </script>
 
     </div>
         </form> 
